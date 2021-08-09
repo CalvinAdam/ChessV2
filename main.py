@@ -24,9 +24,7 @@ result = None
 promotion_square = []
 promotion_piece = ''
 player = 'human'
-# fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
-# fen = '3r4/3r4/3k4/8/8/3K4/8/8 w - - 0 1'
-fen = '8/PPPPPPPP/8/8/8/8/8/K2k4 w - - 0 1'
+fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
 board, piecelist, turn, extra_info = fen_to_board(fen)
 castling, en_passant_row, en_passant_column, halfturns, no_of_turns = use_extra_info(extra_info)
 draw_board(chessboard, board, light, dark, square)
