@@ -34,12 +34,12 @@ def time_to_int(time: str):
 
 
 # Read pgn file:
-# with open("C:/Users/Calvin/Downloads/chess_stuff/CORRUPT.lichess_db_standard_rated_2013-07.pgn") as f:
+# with open("chess_database.pgn") as f:
 #     for i in range(20000):
 #         game = chess.pgn.read_game(f)
 #         print(str(game.variations[0])[3])
 
-with open("H:/chess_stuff/lichess_db_standard_rated_2016-07.pgn/lichess_db_standard_rated_2016-07.pgn") as f:
+with open("chess_database.pgn") as f:
     my_database = {}
     counter = 0
     for i in range(1000000):
